@@ -1,0 +1,85 @@
+{
+  "uid" : "8480da2b777e90d6",
+  "name" : "test_001[test_003-xiaoli-xiao]",
+  "fullName" : "test_script.test_allure.Test_allure#test_001",
+  "historyId" : "36dc38ab330ae2cec91e8bd70f3bc554",
+  "time" : {
+    "start" : 1617772474051,
+    "stop" : 1617772474051,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 'xiaoli' == 'xiao'\n  - xiao\n  + xiaoli\n  ?     ++",
+  "statusTrace" : "self = <test_script.test_allure.Test_allure object at 0x03E66F10>, test_name = 'test_003', name = 'xiaoli', exp_value = 'xiao'\n\n    @pytest.mark.parametrize('test_name, name, exp_value', ini_data('test_data', ['name', 'exp_value']))\n    @allure.severity(allure.severity_level.BLOCKER)\n    def test_001(self, test_name, name, exp_value):\n        allure.step('这里是标题: %s' % test_name)\n        # attach是描述，参数是两个字符串，第一个是title，第二个描述文本，\n        allure.attach('描述', '这里是描述：%s' % test_name)\n>       assert name == exp_value\nE       AssertionError: assert 'xiaoli' == 'xiao'\nE         - xiao\nE         + xiaoli\nE         ?     ++\n\ntest_script\\test_allure.py:13: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 'xiaoli' == 'xiao'\n  - xiao\n  + xiaoli\n  ?     ++",
+    "statusTrace" : "self = <test_script.test_allure.Test_allure object at 0x03E66F10>, test_name = 'test_003', name = 'xiaoli', exp_value = 'xiao'\n\n    @pytest.mark.parametrize('test_name, name, exp_value', ini_data('test_data', ['name', 'exp_value']))\n    @allure.severity(allure.severity_level.BLOCKER)\n    def test_001(self, test_name, name, exp_value):\n        allure.step('这里是标题: %s' % test_name)\n        # attach是描述，参数是两个字符串，第一个是title，第二个描述文本，\n        allure.attach('描述', '这里是描述：%s' % test_name)\n>       assert name == exp_value\nE       AssertionError: assert 'xiaoli' == 'xiao'\nE         - xiao\nE         + xiaoli\nE         ?     ++\n\ntest_script\\test_allure.py:13: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c6d017aab94fe9b",
+      "name" : "这里是描述：test_003",
+      "source" : "c6d017aab94fe9b.attach",
+      "type" : "text/plain",
+      "size" : 6
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_script"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_allure"
+  }, {
+    "name" : "suite",
+    "value" : "test_allure"
+  }, {
+    "name" : "host",
+    "value" : "wjf-computer"
+  }, {
+    "name" : "thread",
+    "value" : "4696-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_script.test_allure"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "exp_value",
+    "value" : "'xiao'"
+  }, {
+    "name" : "name",
+    "value" : "'xiaoli'"
+  }, {
+    "name" : "test_name",
+    "value" : "'test_003'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8480da2b777e90d6.json",
+  "parameterValues" : [ "'xiao'", "'xiaoli'", "'test_003'" ]
+}

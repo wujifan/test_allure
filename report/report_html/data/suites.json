@@ -1,0 +1,53 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_script",
+    "children" : [ {
+      "name" : "test_allure",
+      "children" : [ {
+        "name" : "Test_allure",
+        "children" : [ {
+          "name" : "test_001[test_001-lihong-lihong]",
+          "uid" : "816cfba9cc5b9d01",
+          "parentUid" : "87aa4d9a47f05c014b88371d759dc850",
+          "status" : "passed",
+          "time" : {
+            "start" : 1617773032464,
+            "stop" : 1617773032464,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "'lihong'", "'lihong'", "'test_001'" ]
+        }, {
+          "name" : "test_001[test_002-xiaohong-xiaohong]",
+          "uid" : "f80efd6e6278d4de",
+          "parentUid" : "87aa4d9a47f05c014b88371d759dc850",
+          "status" : "passed",
+          "time" : {
+            "start" : 1617773032495,
+            "stop" : 1617773032495,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "'xiaohong'", "'xiaohong'", "'test_002'" ]
+        }, {
+          "name" : "test_001[test_003-xiaoli-xiao]",
+          "uid" : "fc10f75c96d262e1",
+          "parentUid" : "87aa4d9a47f05c014b88371d759dc850",
+          "status" : "failed",
+          "time" : {
+            "start" : 1617773032511,
+            "stop" : 1617773032511,
+            "duration" : 0
+          },
+          "flaky" : true,
+          "parameters" : [ "'xiao'", "'xiaoli'", "'test_003'" ]
+        } ],
+        "uid" : "87aa4d9a47f05c014b88371d759dc850"
+      } ],
+      "uid" : "de16e546dd8344abb304f1d78233e514"
+    } ],
+    "uid" : "c7f54b843c7e0d3f49cfed7b06a34f8e"
+  } ]
+}

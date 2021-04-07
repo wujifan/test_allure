@@ -1,0 +1,31 @@
+[ {
+  "uid" : "f80efd6e6278d4de",
+  "name" : "test_001[test_002-xiaohong-xiaohong]",
+  "time" : {
+    "start" : 1617773032495,
+    "stop" : 1617773032495,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "fc10f75c96d262e1",
+  "name" : "test_001[test_003-xiaoli-xiao]",
+  "time" : {
+    "start" : 1617773032511,
+    "stop" : 1617773032511,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "816cfba9cc5b9d01",
+  "name" : "test_001[test_001-lihong-lihong]",
+  "time" : {
+    "start" : 1617773032464,
+    "stop" : 1617773032464,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+} ]

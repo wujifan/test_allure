@@ -1,0 +1,81 @@
+{
+  "uid" : "89286a8f1b40095c",
+  "name" : "test_001[test_001-lihong-lihong]",
+  "fullName" : "test_script.test_allure.Test_allure#test_001",
+  "historyId" : "1daee4173a6d81b20ce921a5290065b3",
+  "time" : {
+    "start" : 1617772474004,
+    "stop" : 1617772474004,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6a2c07dc7ef8f992",
+      "name" : "这里是描述：test_001",
+      "source" : "6a2c07dc7ef8f992.attach",
+      "type" : "text/plain",
+      "size" : 6
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_script"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_allure"
+  }, {
+    "name" : "suite",
+    "value" : "test_allure"
+  }, {
+    "name" : "host",
+    "value" : "wjf-computer"
+  }, {
+    "name" : "thread",
+    "value" : "4696-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_script.test_allure"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "exp_value",
+    "value" : "'lihong'"
+  }, {
+    "name" : "name",
+    "value" : "'lihong'"
+  }, {
+    "name" : "test_name",
+    "value" : "'test_001'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "89286a8f1b40095c.json",
+  "parameterValues" : [ "'lihong'", "'lihong'", "'test_001'" ]
+}

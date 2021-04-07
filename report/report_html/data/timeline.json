@@ -1,0 +1,49 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "wjf-computer",
+    "children" : [ {
+      "name" : "4760-MainThread",
+      "children" : [ {
+        "name" : "test_001[test_002-xiaohong-xiaohong]",
+        "uid" : "f80efd6e6278d4de",
+        "parentUid" : "7df34f2849e788613cbd15fe55c785b5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617773032495,
+          "stop" : 1617773032495,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ "'xiaohong'", "'xiaohong'", "'test_002'" ]
+      }, {
+        "name" : "test_001[test_003-xiaoli-xiao]",
+        "uid" : "fc10f75c96d262e1",
+        "parentUid" : "7df34f2849e788613cbd15fe55c785b5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1617773032511,
+          "stop" : 1617773032511,
+          "duration" : 0
+        },
+        "flaky" : true,
+        "parameters" : [ "'xiao'", "'xiaoli'", "'test_003'" ]
+      }, {
+        "name" : "test_001[test_001-lihong-lihong]",
+        "uid" : "816cfba9cc5b9d01",
+        "parentUid" : "7df34f2849e788613cbd15fe55c785b5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617773032464,
+          "stop" : 1617773032464,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ "'lihong'", "'lihong'", "'test_001'" ]
+      } ],
+      "uid" : "7df34f2849e788613cbd15fe55c785b5"
+    } ],
+    "uid" : "a53244edb38f7499e21e645ad2d81cc6"
+  } ]
+}

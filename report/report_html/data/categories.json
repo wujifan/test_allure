@@ -1,0 +1,25 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 'xiaoli' == 'xiao'\n  - xiao\n  + xiaoli\n  ?     ++",
+      "children" : [ {
+        "name" : "test_001[test_003-xiaoli-xiao]",
+        "uid" : "fc10f75c96d262e1",
+        "parentUid" : "6454717242540a120b6e44defd955e24",
+        "status" : "failed",
+        "time" : {
+          "start" : 1617773032511,
+          "stop" : 1617773032511,
+          "duration" : 0
+        },
+        "flaky" : true,
+        "parameters" : [ "'xiao'", "'xiaoli'", "'test_003'" ]
+      } ],
+      "uid" : "6454717242540a120b6e44defd955e24"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
